@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "extras": "Extras",
+    "contact": "Contact",
+    "resume": "Resume",
+    "certificates": "Certificates",
+    "journey": "My Journey",
+    "knowledge": "Knowledge",
+    "projects": "Projects",
+    "skills": "Skills",
+    "testimonials": "Testimonials",
+    "services": "Services",
+    "blog": "Blog",
+    "stats": "Stats",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Abdalla Gamal",
+    "title": "Frontend Developer & Freelancer",
+    "subtitle": "IT Sharks • Freelance • Web PenTesting",
+    "downloadCV": "Download CV",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate Frontend Developer with expertise in React, TypeScript, and modern web technologies. Currently working with IT Sharks while freelancing and exploring web security penetration testing."
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download CV"
+  },
+  "certificates": {
+    "title": "Certificates"
+  },
+  "journey": {
+    "title": "My Journey",
+    "university": "MTI University",
+    "diploma": "IT Sharks Diploma",
+    "freelancing": "Freelancing",
+    "webSecurity": "Web Security"
+  },
+  "knowledge": {
+    "title": "Knowledge",
+    "spa": {
+      "title": "SPA vs MPA",
+      "description": "Understanding the differences between Single Page Applications and Multi-Page Applications"
+    },
+    "typescript": {
+      "title": "Why TypeScript?",
+      "description": "Type safety, better development experience, and improved code maintainability"
+    },
+    "tailwind": {
+      "title": "TailwindCSS vs CSS",
+      "description": "utility-first approach vs traditional CSS methodologies"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "programmingWorld": {
+      "title": "Programming World",
+      "description": "Educational platform for programming concepts"
+    },
+    "myWebbTan": {
+      "title": "My Webb Tan",
+      "description": "Modern web development showcase"
+    },
+    "demo": "Demo",
+    "sourceCode": "Source Code"
+  },
+  "skills": {
+    "title": "Skills",
+    "frontend": "Frontend",
+    "softSkills": "Soft Skills"
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "services": {
+    "title": "Services",
+    "webDev": "Web Development",
+    "uiux": "UI/UX Design",
+    "webSec": "Web Security",
+    "maintenance": "Maintenance"
+  },
+  "blog": {
+    "title": "Blog"
+  },
+  "stats": {
+    "title": "Statistics",
+    "projects": "Projects Completed",
+    "clients": "Clients",
+    "hours": "Coding Hours",
+    "certificates": "Certificates"
+  },
+  "faq": {
+    "title": "FAQ"
+  },
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "info": "Contact Info"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "preloader": {
+    "welcome": "Welcome to Abdalla Gamal's Portfolio"
+  }
+}

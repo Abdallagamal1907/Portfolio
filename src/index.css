@@ -1,0 +1,110 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Swiper custom styles */
+.custom-bullet {
+  @apply w-3 h-3 bg-gray-400 rounded-full opacity-50 transition-all duration-300;
+}
+
+.swiper-pagination-bullet-active.custom-bullet {
+  @apply bg-primary-light opacity-100 scale-125;
+}
+
+.certificates-swiper .swiper-pagination,
+.testimonials-swiper .swiper-pagination {
+  @apply mt-8;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-600 rounded-full hover:bg-primary-light;
+}
+
+/* RTL support */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .swiper-button-prev {
+  left: auto;
+  right: 10px;
+}
+
+[dir="rtl"] .swiper-button-next {
+  right: auto;
+  left: 10px;
+}
+
+/* Loading animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(153, 15, 61, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(153, 15, 61, 0.6);
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Form input focus styles */
+input:focus,
+textarea:focus {
+  @apply outline-none ring-2 ring-primary-light border-transparent;
+}
+
+/* Button ripple effect */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.ripple:active::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Dark mode transitions */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}

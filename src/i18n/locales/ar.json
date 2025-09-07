@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "about": "حول",
+    "portfolio": "المعرض",
+    "extras": "إضافات",
+    "contact": "تواصل",
+    "resume": "السيرة الذاتية",
+    "certificates": "الشهادات",
+    "journey": "رحلتي",
+    "knowledge": "المعرفة",
+    "projects": "المشاريع",
+    "skills": "المهارات",
+    "testimonials": "الشهادات",
+    "services": "الخدمات",
+    "blog": "المدونة",
+    "stats": "الإحصائيات",
+    "faq": "الأسئلة الشائعة"
+  },
+  "hero": {
+    "greeting": "مرحباً، أنا عبدالله جمال",
+    "title": "مطور واجهات أمامية ومستقل",
+    "subtitle": "IT Sharks • العمل الحر • اختبار أمان الويب",
+    "downloadCV": "تحميل السيرة الذاتية",
+    "viewProjects": "عرض المشاريع"
+  },
+  "about": {
+    "title": "حولي",
+    "description": "أنا مطور واجهات أمامية شغوف بخبرة في React وTypeScript وتقنيات الويب الحديثة. أعمل حالياً مع IT Sharks بينما أعمل كمستقل وأستكشف اختبار اختراق أمان الويب."
+  },
+  "resume": {
+    "title": "السيرة الذاتية",
+    "download": "تحميل السيرة الذاتية"
+  },
+  "certificates": {
+    "title": "الشهادات"
+  },
+  "journey": {
+    "title": "رحلتي",
+    "university": "جامعة MTI",
+    "diploma": "دبلومة IT Sharks",
+    "freelancing": "العمل الحر",
+    "webSecurity": "أمان الويب"
+  },
+  "knowledge": {
+    "title": "المعرفة",
+    "spa": {
+      "title": "SPA مقابل MPA",
+      "description": "فهم الفروق بين تطبيقات الصفحة الواحدة وتطبيقات الصفحات المتعددة"
+    },
+    "typescript": {
+      "title": "لماذا TypeScript؟",
+      "description": "أمان الأنواع، تجربة تطوير أفضل، وقابلية صيانة محسنة للكود"
+    },
+    "tailwind": {
+      "title": "TailwindCSS مقابل CSS",
+      "description": "منهج المرافق أولاً مقابل منهجيات CSS التقليدية"
+    }
+  },
+  "projects": {
+    "title": "المشاريع",
+    "programmingWorld": {
+      "title": "عالم البرمجة",
+      "description": "منصة تعليمية لمفاهيم البرمجة"
+    },
+    "myWebbTan": {
+      "title": "My Webb Tan",
+      "description": "عرض تطوير الويب الحديث"
+    },
+    "demo": "تجربة",
+    "sourceCode": "الكود المصدري"
+  },
+  "skills": {
+    "title": "المهارات",
+    "frontend": "الواجهة الأمامية",
+    "softSkills": "المهارات الناعمة"
+  },
+  "testimonials": {
+    "title": "الشهادات"
+  },
+  "services": {
+    "title": "الخدمات",
+    "webDev": "تطوير الويب",
+    "uiux": "تصميم UI/UX",
+    "webSec": "أمان الويب",
+    "maintenance": "الصيانة"
+  },
+  "blog": {
+    "title": "المدونة"
+  },
+  "stats": {
+    "title": "الإحصائيات",
+    "projects": "المشاريع المكتملة",
+    "clients": "العملاء",
+    "hours": "ساعات البرمجة",
+    "certificates": "الشهادات"
+  },
+  "faq": {
+    "title": "الأسئلة الشائعة"
+  },
+  "contact": {
+    "title": "تواصل",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "message": "الرسالة",
+    "submit": "إرسال",
+    "info": "معلومات التواصل"
+  },
+  "footer": {
+    "rights": "جميع الحقوق محفوظة"
+  },
+  "preloader": {
+    "welcome": "مرحباً بك في معرض عبدالله جمال"
+  }
+}
