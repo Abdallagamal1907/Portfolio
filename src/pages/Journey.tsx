@@ -47,7 +47,7 @@ const Journey: React.FC = () => {
 
         <div className="relative">
           {/* Timeline Line */}
-          <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-primary-light"></div>
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-primary-light"></div>
 
           <div className="space-y-12">
             {journeySteps.map((step, index) => (
@@ -57,9 +57,15 @@ const Journey: React.FC = () => {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.3 }}
-                className={`flex items-center ${index % 2 === 0 ? 'flex-row-reverse' : 'flex-row'}`}
+                className={`flex flex-col md:flex-row items-center ${
+                  index % 2 === 0 ? 'md:flex-row-reverse' : ''
+                }`}
               >
-                <div className={`w-1/2 ${index % 2 === 0 ? 'pl-8' : 'pr-8'}`}>
+                <div
+                  className={`w-full md:w-1/2 ${
+                    index % 2 === 0 ? 'md:pl-8' : 'md:pr-8'
+                  } mb-6 md:mb-0`}
+                >
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg">
                     <div className="flex items-center gap-4 mb-4">
                       <div className="p-3 bg-primary-light rounded-full">
@@ -74,11 +80,12 @@ const Journey: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                
+
                 {/* Timeline Dot */}
-                <div className="w-4 h-4 bg-primary-light rounded-full border-4 border-light-bg dark:border-dark-bg z-10"></div>
-                
-                <div className="w-1/2"></div>
+                <div className="w-4 h-4 bg-primary-light rounded-full border-4 border-light-bg dark:border-dark-bg z-10 mb-6 md:mb-0"></div>
+
+                {/* Empty spacer for alignment */}
+                <div className="w-full md:w-1/2"></div>
               </motion.div>
             ))}
           </div>
