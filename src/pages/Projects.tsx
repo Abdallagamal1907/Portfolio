@@ -12,7 +12,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: t('projects.programmingWorld.title'),
       description: t('projects.programmingWorld.description'),
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://i.ibb.co/wFxJJTdY/Screenshot-2025-10-11-164335.png',
       tech: ['React', 'TypeScript', 'Tailwind'],
       demoUrl: 'https://programming-world.vercel.app',
       sourceUrl: 'https://github.com/abdallagamal1907',
@@ -21,20 +21,21 @@ const Projects: React.FC = () => {
       id: 2,
       title: t('projects.myWebbTan.title'),
       description: t('projects.myWebbTan.description'),  // الوصف الجديد في ملف الترجمة
-      image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://i.ibb.co/MD5qzStr/Screenshot-2025-10-11-164741.png',
       tech: ['React', 'CSS', 'JavaScript'],
       demoUrl: 'https://my-webb-tan.vercel.app',
       sourceUrl: 'https://github.com/abdallagamal1907',
     },
-    {
-      id: 3,
-      title: t('projects.clientPortfolio.title'),
-      description: t('projects.clientPortfolio.description'),
-      image: '/images/client-portfolio.png',  // استبدلها برابط الصورة الحقيقي لو حابب
-      tech: ['React', 'Tailwind', 'Framer Motion'],
-      demoUrl: 'https://client-portfolio-dusky.vercel.app/',
-      sourceUrl: 'https://github.com/abdallagamal1907/client-portfolio',  // لو فيه
-    },
+   {
+  id: 3,
+  title: t('projects.clientPortfolio.title'),
+  description: t('projects.clientPortfolio.description'),
+  image: 'https://i.ibb.co/9kqZRkTh/Screenshot-2025-10-11-163537.png',
+  tech: ['React', 'Tailwind', 'Framer Motion'],
+  demoUrl: 'https://client-portfolio-dusky.vercel.app/',
+  sourceUrl: 'https://github.com/abdallagamal1907/client-portfolio',
+},
+
   ];
 
   return (
