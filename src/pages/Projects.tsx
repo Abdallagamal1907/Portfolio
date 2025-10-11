@@ -20,11 +20,20 @@ const Projects: React.FC = () => {
     {
       id: 2,
       title: t('projects.myWebbTan.title'),
-      description: t('projects.myWebbTan.description'),
+      description: t('projects.myWebbTan.description'),  // الوصف الجديد في ملف الترجمة
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
       tech: ['React', 'CSS', 'JavaScript'],
       demoUrl: 'https://my-webb-tan.vercel.app',
       sourceUrl: 'https://github.com/abdallagamal1907',
+    },
+    {
+      id: 3,
+      title: t('projects.clientPortfolio.title'),
+      description: t('projects.clientPortfolio.description'),
+      image: '/images/client-portfolio.png',  // استبدلها برابط الصورة الحقيقي لو حابب
+      tech: ['React', 'Tailwind', 'Framer Motion'],
+      demoUrl: 'https://client-portfolio-dusky.vercel.app/',
+      sourceUrl: 'https://github.com/abdallagamal1907/client-portfolio',  // لو فيه
     },
   ];
 
@@ -67,7 +76,7 @@ const Projects: React.FC = () => {
                     whileTap={{ scale: 0.9 }}
                     href={project.demoUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer" 
                     className="p-3 bg-primary-light rounded-full text-white hover:bg-primary-dark transition-colors"
                   >
                     <ExternalLink className="w-6 h-6" />
